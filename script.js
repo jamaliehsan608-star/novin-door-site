@@ -8,12 +8,12 @@ function setupWhatsApp() {
     waButton.href = RUBIKA_LINK;
     waButton.target = "_blank";
     waButton.rel = "noopener noreferrer";
-    waButton.textContent = "پیام خصوصی در روبیکا";
+    waButton.textContent = "پیام خصوصی در تلگرام";
   }
 
   if (contactMessage) {
     contactMessage.textContent =
-      "برای سفارش و استعلام قیمت، در روبیکا پیام خصوصی بدهید.";
+      "برای سفارش و استعلام قیمت، در تلگرام پیام خصوصی بدهید.";
   }
 
   document.querySelectorAll(".quote-link").forEach((item) => {
