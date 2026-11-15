@@ -1,5 +1,5 @@
 
-const RUBIKA_LINK = "https://rubika.ir/novindoor24";
+const RUBIKA_LINK = "";const RUBIKA_LINK = "https://rubika.ir/Ehsan_jm61";
 
 const waButton = document.getElementById("whatsapp-button");
 const contactMessage = document.getElementById("contact-message");
