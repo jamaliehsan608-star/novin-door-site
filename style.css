@@ -4,3 +4,12 @@
 @media(max-width:900px){.nav{gap:13px;font-size:12px}.hero{gap:28px;padding-top:55px;padding-bottom:55px}.product-grid{grid-template-columns:repeat(2,1fr)}.hero-art .door-scene{height:340px}.product-visual{height:190px}}
 @media(max-width:650px){.site-header{padding:12px 5%;min-height:72px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:100%;right:0;left:0;background:var(--navy2);padding:16px 5%;flex-direction:column;gap:0;box-shadow:0 12px 18px #0002}.nav.open{display:flex}.nav a{padding:9px 0;border-bottom:1px solid #ffffff13}.hero{grid-template-columns:1fr;padding:48px 6%;gap:28px}.hero h1{font-size:36px}.hero-art .door-scene{height:300px}.section,.services{padding:55px 6%}.product-grid{gap:12px}.product-visual{height:155px}.product-info{padding:13px}.product-info h3{font-size:15px}.product-info p{font-size:11px;min-height:70px}.service-grid{grid-template-columns:1fr}.about{grid-template-columns:1fr;text-align:center;padding-top:55px;padding-bottom:55px}.about-badge{margin:0 auto 12px;width:110px;height:110px;font-size:40px}.contact-section{grid-template-columns:1fr;padding:55px 6%;gap:25px}.scene-caption{font-size:11px}.scene-caption span{font-size:7px}footer{padding:22px 6%;gap:10px}}.
 
+.product-visual img{
+  display:block;
+  width:100%;
+  height:100%;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+  object-position:center;
+}
