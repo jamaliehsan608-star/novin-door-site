@@ -1,5 +1,4 @@
-
-const RUBIKA_LINK = "";const RUBIKA_LINK = "https://rubika.ir/Ehsan_jm61";
+const RUBIKA_LINK = "https://rubika.ir/Ehsan_jm61";
 
 const waButton = document.getElementById("whatsapp-button");
 const contactMessage = document.getElementById("contact-message");
@@ -9,12 +8,12 @@ function setupWhatsApp() {
     waButton.href = RUBIKA_LINK;
     waButton.target = "_blank";
     waButton.rel = "noopener noreferrer";
-    waButton.textContent = "سفارش از طریق روبیکا";
+    waButton.textContent = "پیام خصوصی در روبیکا";
   }
 
   if (contactMessage) {
     contactMessage.textContent =
-      "برای استعلام قیمت و ثبت سفارش، از طریق روبیکا پیام دهید.";
+      "برای سفارش و استعلام قیمت، در روبیکا پیام خصوصی بدهید.";
   }
 
   document.querySelectorAll(".quote-link").forEach((item) => {
