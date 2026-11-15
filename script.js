@@ -1,29 +1,30 @@
-const RUBIKA_LINK = "https://t.me/Ehsan_jm61";
+
+const TELEGRAM_LINK = "https://t.me/Ehsan_jm61";
 
 const waButton = document.getElementById("whatsapp-button");
 const contactMessage = document.getElementById("contact-message");
 
-function setupWhatsApp() {
+function setupContact() {
   if (waButton) {
-    waButton.href = RUBIKA_LINK;
+    waButton.href = TELEGRAM_LINK;
     waButton.target = "_blank";
     waButton.rel = "noopener noreferrer";
-    waButton.textContent = "پیام خصوصی در تلگرام";
+    waButton.textContent = "سفارش از طریق تلگرام";
   }
 
   if (contactMessage) {
     contactMessage.textContent =
-      "برای سفارش و استعلام قیمت، در تلگرام پیام خصوصی بدهید.";
+      "برای استعلام قیمت و ثبت سفارش، از طریق تلگرام پیام دهید.";
   }
 
   document.querySelectorAll(".quote-link").forEach((item) => {
-    item.href = RUBIKA_LINK;
+    item.href = TELEGRAM_LINK;
     item.target = "_blank";
     item.rel = "noopener noreferrer";
   });
 }
 
-setupWhatsApp();
+setupContact();
 
 const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector(".nav");
